@@ -1,0 +1,83 @@
+/*  VERSÃO 768px */
+@media (max-width: 769){
+    .title{
+        font-size: 3em;
+    }
+    .subtitle{
+        font-size: 2em;
+    }
+    .segunda-sec img{
+        width: 50vw;
+    }
+}
+
+
+/*  VERSAO 425PX */
+@media (max-width: 426px){
+    header .d-flex{
+        display: block;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    .btn-primary{
+        display: inline-block;
+        margin: 20px;
+    }
+
+    header img{
+        margin-bottom: 10px;
+    }
+
+    .bg-img img {
+        width: 80vw;
+    }
+    .title{
+        text-align: center;
+        font-size: 2.7em;
+    }
+    .subtitle{
+        text-align: center;
+        font-size: 1.5em;
+        margin: 2vh;
+    }
+    .segunda-sec img{
+        display: none;
+    }
+    .segunda-sec{
+        padding: 20px;
+    }
+    .title-sec{
+        margin-bottom: 10px;
+    }
+}
+
+
+/* versao 320 */ 
+@media (max-width:321px){
+    header nav a{
+        display: block;
+        margin-bottom: 16px;
+        font-size: 1.5em;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    footer .d-flex{
+        display: block;
+    }
+    footer{
+        text-align: center;
+    }
+    footer .icones{
+        justify-content: center;
+        margin: 20px;
+        display: flex;
+    }
+
+
+}
+
+
